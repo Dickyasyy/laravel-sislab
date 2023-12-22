@@ -79,7 +79,10 @@
                 @endforeach
             </div>
         </div>
-            <button type="submit" class="btn btn-success btn-sm">Cetak</button>
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-success btn-sm mr-2">Cetak</button>
+            <button type="reset" class="btn btn-primary btn-sm">Refresh</button>
+        </div>
         </form>
     </div>
 @endsection
